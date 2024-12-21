@@ -1,0 +1,43 @@
+/* General styles for NavBar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-links .active-link {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  
+  /* Hover effect */
+  .nav-links a:hover {
+    color: #00bcd4;
+  }
+  

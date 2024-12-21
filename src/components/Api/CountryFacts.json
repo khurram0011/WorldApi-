@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "countryName": "Australia",
+      "capital": "Canberra",
+      "population": 26000000,
+      "interestingFact": "Australia is home to the Great Barrier Reef, the largest coral reef system in the world."
+    },
+    {
+      "id": 2,
+      "countryName": "Canada",
+      "capital": "Ottawa",
+      "population": 38008005,
+      "interestingFact": "Canada has the longest coastline of any country in the world."
+    },
+    {
+      "id": 3,
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": 211000000,
+      "interestingFact": "Brazil is home to the Amazon Rainforest, which is the largest rainforest in the world."
+    },
+    {
+      "id": 4,
+      "countryName": "Japan",
+      "capital": "Tokyo",
+      "population": 126800000,
+      "interestingFact": "Japan has over 6,000 islands."
+    },
+    {
+      "id": 5,
+      "countryName": "Germany",
+      "capital": "Berlin",
+      "population": 83149300,
+      "interestingFact": "Germany is known for its famous beer purity law, which dates back to 1516."
+    },
+    {
+      "id": 6,
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": 1393409038,
+      "interestingFact": "India is the world's largest democracy."
+    },
+    {
+      "id": 7,
+      "countryName": "United Kingdom",
+      "capital": "London",
+      "population": 66700000,
+      "interestingFact": "The UK is made up of four countries: England, Scotland, Wales, and Northern Ireland."
+    },
+    {
+      "id": 8,
+      "countryName": "United States",
+      "capital": "Washington, D.C.",
+      "population": 331002651,
+      "interestingFact": "The United States has the world's largest economy."
+    },
+    {
+      "id": 9,
+      "countryName": "China",
+      "capital": "Beijing",
+      "population": 1393409038,
+      "interestingFact": "China is home to the Great Wall of China, the longest wall in the world."
+    },
+    {
+      "id": 10,
+      "countryName": "France",
+      "capital": "Paris",
+      "population": 67081000,
+      "interestingFact": "France is famous for its wine production and is one of the largest wine producers in the world."
+    }
+  ]
+  

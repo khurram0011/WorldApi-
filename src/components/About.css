@@ -1,0 +1,50 @@
+.card {
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 350px;
+    margin: 20px;
+  }
+  .container {
+    padding: 20px;
+  }
+  
+  /* Row to contain the cards */
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    gap: 20px; /* Space between the cards */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .card-detail {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .card-detail strong {
+    color: #333;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      max-width: 100%;
+      margin: 10px;
+    }
+  }
+  

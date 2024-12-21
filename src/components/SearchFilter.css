@@ -1,0 +1,64 @@
+/* Filter Controls Styling */
+.filter-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+  }
+  
+  /* Search Bar Styling */
+  .filter-controls input[type="text"] {
+    width: 200px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .filter-controls input[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  /* Buttons Styling */
+  .filter-controls button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Select Dropdown Styling */
+  .filter-controls .select-section {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .filter-controls .select-section:focus {
+    border-color: #007bff;
+  }
+  
+  /* Center Alignment for Asc and Desc Buttons */
+  .filter-controls div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+  }
+  
